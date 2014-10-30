@@ -8,16 +8,22 @@
 .faculty .fac2 img {
 	width: 100px;
 	display: inline-block;
+	float:left;
+	position: relative;
 }
 
 .faculty .fac3 img {
 	width: 100px;
 	display: inline-block;
+	float:left;
+	position: relative;
 }
 
 .faculty .fac4 img {
 	width: 100px;
 	display: inline-block;
+	float:left;
+	position: relative;
 }
 
 .bio {
@@ -25,6 +31,14 @@
 	background-color: #eee;
 	display: inline-block;
 	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 8px;
+}
+
+.bio img {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px
 }
 
 .bio p {
