@@ -1,6 +1,11 @@
 require "sinatra"
 require "mandrill"
 
+# from #{params[:first_name]}
+#      #{params[:last_name]}
+#      #{params[:email]}
+#      #{params[:codingclass]}
+
 get "/sent" do
 	m = Mandrill::API.new
 	message = {
@@ -14,7 +19,7 @@ get "/sent" do
 				}
 			],
 			:html=>"<html><h1>Hi <strong>message</strong>, how are you?</h1></html>",
-			:from_email=>"sender@yourdomain.com"
+			:from_email=>"herrwagner1680@gmail.com"
 	}
 		sending = m.messages.send message
 		puts sending
