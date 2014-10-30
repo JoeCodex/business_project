@@ -1,3 +1,19 @@
+.history {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
+.history h4 {
+	font-size: 30px;
+}
+
+.history p {
+	margin-top: -15px;
+}
+
+
+
 .faculty .fac1 img {
 	width: 100px;
 	display: inline-block;
